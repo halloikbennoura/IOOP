@@ -9,7 +9,7 @@ void Metro::prijsPerKm()
 }
 
 void Metro::maxPassagiers() {
-    passagiers = 45;
+    passagiers = 80;
     std::cout << "Het maximale aantal passagiers is " << passagiers << std::endl;
 }
 
