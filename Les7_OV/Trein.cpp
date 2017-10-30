@@ -9,7 +9,7 @@ void Trein::prijsPerKm()
 }
 
 void Trein::maxPassagiers() {
-    passagiers = 45;
+    passagiers = 165;
     std::cout << "Het maximale aantal passagiers is " << passagiers << std::endl;
 }
 
