@@ -20,5 +20,5 @@ Student :: Student(string naam, int leeftijd, int nummer) {
 
 int Student::getNumber() {
     
-    return nummer;
+    return studentNummer;
 }
