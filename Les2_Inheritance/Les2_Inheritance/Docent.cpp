@@ -1,5 +1,3 @@
-#include "Persoon.hpp"
-#include "Student.hpp"
 #include "Docent.hpp"
 #include <stdio.h>
 
@@ -8,15 +6,16 @@ using std::string;
 
 
 //default constructor
-Docent :: Docent() {
+Docent :: Docent(string naam, int leeftijd, string docentVak) {
     
-    naam = "Marian";
-    leeftijd = 43;
-    docentVak = Aardrijkskunde;
+    persoonNaam = naam;
+    persoonLeeftijd = leeftijd;
+    getNumber = docentVak;
+    
 }
 
-//accessor methods: these provide access to retrieve and update the instance data
-string Docent::getVak() {
+
+int Docent::getVak() {
     
     return docentVak;
 }
