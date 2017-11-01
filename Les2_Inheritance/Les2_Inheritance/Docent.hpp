@@ -8,7 +8,7 @@
 using std::string;
 
 // hij herkent de Persoon class niet en ik weet niet waarom
-class Docent: public Persoon {
+class Docent : public Persoon {
 private:
     string docentVak;
     
@@ -25,3 +25,4 @@ public:
 
 
 };
+
