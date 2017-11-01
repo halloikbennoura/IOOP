@@ -10,13 +10,12 @@ using std::string;
 class Student : public Persoon {
     
     public:
-        //default constructor
-        Student();
         // constructor
         Student(string naam, int leeftijd, int studentNummer);
     
         //destructor
         ~Student();
+    
     
         int studentNummer;
         int getNumber;
