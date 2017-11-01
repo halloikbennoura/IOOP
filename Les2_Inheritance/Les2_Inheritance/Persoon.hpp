@@ -1,25 +1,33 @@
 #pragma once
-#define Docent_hpp
-#include "Persoon.hpp"
-
 #include <stdio.h>
 
 #include <string>
 using std::string;
 
 
-class Docent : public Persoon {
+class Persoon {
+
     
+//list all functions for this class
 public:
     //default constructor
-    Docent();
+    Persoon();
     // constructor
-    Docent(string naam, int leeftijd, string docentVak);
+    Persoon(string, int);
     
     //destructor
-    ~Docent();
-    
-    string getVak;
-    string docentVak;
+    ~Persoon();
 
+
+    string naam;
+    int leeftijd;
+    
+    string persoonNaam;
+    int persoonLeeftijd;
+    
+    
+    //accessor of mutator? methods
+    virtual string getName(string naam);
+    virtual int getAge(int leeftijd);
+    
 };
