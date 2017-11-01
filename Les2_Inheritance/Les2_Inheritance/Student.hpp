@@ -7,22 +7,18 @@
 #include <string>
 using std::string;
 
-// hij herkent de Persoon class niet en ik weet niet waarom
-class Student: public Persoon {
-private:
-    int studentNummer;
+class Student : public Persoon {
     
-public:
-    //default constructor
-    Student();
-    // constructor
-    Student(string naam, int leeftijd, int studentNummer);
+    public:
+        //default constructor
+        Student();
+        // constructor
+        Student(string naam, int leeftijd, int studentNummer);
     
-    //destructor
-    ~Student();
+        //destructor
+        ~Student();
     
-    int getNumber;
-
-    
+        int studentNummer;
+        int getNumber;
     
 };
