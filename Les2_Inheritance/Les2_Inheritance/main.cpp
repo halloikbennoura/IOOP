@@ -19,6 +19,6 @@ int main() {
     printPersoon(student1);
     return 0;
     
-    std::cout <<"Docent: " <<docent1.getName();
-    std::cout <<"Leeftijd: " <<docent1.getAge();
+    std::cout <<"Docent: " << docent1.getName();
+    std::cout <<"Leeftijd: " << docent1.getAge();
 }
